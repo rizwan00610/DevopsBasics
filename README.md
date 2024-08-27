@@ -7,3 +7,5 @@ checking code :
       - name: remove all old images
       shell: docker rmi -f $(docker images -q);
       ignore_errors: yes
+
+implementing jenkins CI/CD
